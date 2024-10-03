@@ -8,7 +8,16 @@ function MyApp() {
   )
 }
 
+const ReactElement = {
+  type: 'a',
+  props: {
+      href: 'http://google.com',
+      target: '_blank'
+  },
+  children: "Click me to visit Google!"
+}
+
 
 createRoot(document.getElementById('root')).render(
-    MyApp()
+    <ReactElement></ReactElement>
 )
