@@ -17,7 +17,10 @@ const ReactElement = {
   children: "Click me to visit Google!"
 }
 
+const anotherElement = (
+  <a href='http://googl.com' target='_blank'>Visit Google</a>
+)
 
 createRoot(document.getElementById('root')).render(
-    <ReactElement></ReactElement>
+    anotherElement
 )
