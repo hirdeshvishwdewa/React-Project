@@ -10,5 +10,5 @@ function MyApp() {
 
 
 createRoot(document.getElementById('root')).render(
-    <MyApp />
+    MyApp()
 )
